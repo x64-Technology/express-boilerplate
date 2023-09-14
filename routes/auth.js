@@ -64,7 +64,11 @@ router
                 })
             res.redirect("/")
         } else res.redirect("/auth/signup?message=" + encodeURIComponent("something went wrong"))
-    });
+    })
+
+    .get("/signup", async (req, res) => {
+        res.clearCookie(process.env.COOKIES_NAME)
+    })
 
 
 module.exports = router;
