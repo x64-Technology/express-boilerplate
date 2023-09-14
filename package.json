@@ -1,0 +1,35 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x64-Technology/express-boilerplate.git"
+  },
+  "keywords": [
+    "express.js",
+    "node",
+    "auth",
+    "jwt",
+    "api"
+  ],
+  "author": "x64-Technology",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x64-Technology/express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/x64-Technology/express-boilerplate#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
