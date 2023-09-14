@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Signup</title>
+</head>
+<body>
+    <main>
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-5-tablet is-4-desktop is-3-widescreen">
+                        <form action="/auth/signup" method="post" class="box">
+                            <div class="field">
+                                <label for="" class="label">Name</label>
+                                <div class="control">
+                                    <input type="name" placeholder="enter your name" class="input" required name="name">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="" class="label">Email</label>
+                                <div class="control">
+                                    <input type="email" placeholder="e.g. bobsmith@gmail.com" class="input" required name="email">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="" class="label">Password</label>
+                                <div class="control">
+                                    <input type="password" placeholder="*******" class="input" required name="password">
+                                </div>
+                            </div>
+
+                            <div class="field is-grouped">
+                                <p class="control">
+                                    <button class="button is-primary" type="submit">
+                                        Signup
+                                    </button>
+                                </p>
+                                <p class="control">
+                                    <a class="button is-light" href="/auth/login">
+                                        Login
+                                    </a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
