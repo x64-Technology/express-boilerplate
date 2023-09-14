@@ -68,6 +68,7 @@ router
 
     .get("/logout", async (req, res) => {
         res.clearCookie(process.env.COOKIES_NAME)
+        res.redirect("/auth/signin")
     })
 
 
